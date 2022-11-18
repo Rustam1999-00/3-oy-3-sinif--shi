@@ -1,0 +1,23 @@
+.form-label {
+  position: relative;
+}
+
+.form-label::before {
+  content: "";
+  position: absolute;
+  background-image: url("/images/icon-search-black.svg");
+  background-repeat: no-repeat;
+  width: 18px;
+  height: 18px;
+  left: 10px;
+  top: 15px;
+}
+
+@media only screen and (max-width: 540px) {
+  .card {
+    width: 400px;
+  }
+}
+body {
+  background-color: #FFFFFF;
+}/*# sourceMappingURL=main.css.map */
