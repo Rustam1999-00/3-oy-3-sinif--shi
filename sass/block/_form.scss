@@ -1,4 +1,35 @@
-.form-label{
+.site-header{
+    background-color: var(--main-content-bg-color);
+}
+.top__link{
+    color:var(--main-text-color);
+}
+.top__button{
+ background-color: var(--main-content-bg-color);
+    color: var(--main-text-color);
+    border: none;
+   
+}
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+//   header end
+  
+  .form-label{
     position: relative;
 }
 .form-label::before{
@@ -8,17 +39,24 @@ background-image: url("/images/icon-search-black.svg");
 background-repeat: no-repeat;
 width: 18px;
 height: 18px; 
-left:10px;
-top:15px;
+left:29px;
+top:10px;
+}
+.border-0{
+    background-color: var(--main-content-bg-color);
+    color: var(--main-text-color);
 }
 .card{
-
+background-color: var(--main-content-bg-color);
+margin: 0 auto;
 }
 @media only screen and (max-width:540px) {
     .card{
 width: 400px;
     }
 }
-body{
-    background-color:  #FFFFFF;
-}
+
+
+// .row{
+//     background-color: var(--main-content-bg-color);
+// }
